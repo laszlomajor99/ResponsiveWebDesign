@@ -1,0 +1,107 @@
+body {
+    background: url("https://www.creativefabrica.com/wp-content/uploads/2024/02/04/Beer-Texture-Background-Graphics-90145953-1.jpg");
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, #description {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+  #description {
+    margin-bottom: 30px;
+  }
+  
+  p, label {
+    font-size: 18px; 
+    margin: 2px;
+  }
+  
+  input, textarea, select {
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"], input[type="email"], textarea, select { 
+    height: 2rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(253, 245, 230);
+    border: 2px solid rgb(220, 220, 220);
+  }
+  
+  textarea {
+    height: 4rem;
+  }
+  
+  input[type="number"] {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(253, 245, 230);
+    border: 2px solid rgb(220, 220, 220);
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5);
+    background-color: rgb(253, 245, 230);
+    border: 2px solid rgb(220, 220, 220);
+  }
+  
+  .divider {
+    padding: 5px;
+    margin: 10px 10px;
+    background: #f9b16e;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .rating-button, .rating-text {
+    text-align: center; 
+  }
+  
+  input[type="radio"] {
+    margin: 0 15px;
+  }
+  .rating {
+    margin: 0 17.5px;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  .plate {
+    background-color: rgba(247, 212, 134, 0.9);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="submit"] {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: rgb(253, 245, 230);
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    transform: scale(1.2);
+    width: 30%;
+    height: 1.75rem;
+  }
+  
+  .flexbox {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="submit"]:hover {
+    color: gray;
+    transform: scale(1.225);
+  }
+  

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beer Satisfaction Survey</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8"/>
+</head>  
+<body>
+  <div class="plate">
+    <h1 id="title">Beer Satisfaction Survey</h1>
+    <p id="description">Please select how satisfied you are with our beer.</p>
+
+    <form class="form" id="survey-form" action="Submit_the_form_to_this_url.html">
+
+      <section class="divider">
+        <label id="name-label" for="name">Please enter your name: 
+          <input required id="name" type="text" name="name" placeholder="Enter Your name">
+        </label>
+      </section>
+
+      <section class="divider">
+        <label id="email-label" for="email">Please enter your email: 
+          <input required id="email" type="email" name="email" placeholder="Enter Your email">
+        </label>
+      </section>
+
+      <section class="divider">
+        <label id="number-label" for="number">Please enter the beer number that you are reviewing: 
+          <input required id="number" type="number" name="number" min="1" max="10" placeholder="#">
+        </label>
+      </section>
+
+      <section class="divider">
+        <label for="dropdown">What was the main note that you have tasted:
+          <select id="dropdown">
+            <option value="NA">Select an option</option>
+            <option value="Earthy">Earthy</option>
+            <option value="Malty">Malty</option>
+            <option value="Fruity">Fruity</option>
+            <option value="Bitter">Bitter</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="divider">
+        <p for="rating">Please rate your beer from 1 to 5:</p>
+        <div class="rating-button">
+          <input value="1" name="rating" type="radio">
+          <input value="2" name="rating" type="radio">
+          <input value="3" name="rating" type="radio">
+          <input value="4" name="rating" type="radio">
+          <input value="5" name="rating" type="radio">
+        </div>
+        <div class="rating-text">
+          <p class="rating inline">1</p>
+          <p class="rating inline">2</p>
+          <p class="rating inline">3</p>
+          <p class="rating inline">4</p>
+          <p class="rating inline">5</p> 
+        </div>
+      </section>
+
+      <section class="divider">
+        <p>Please select the beer types you usually drink: </p>
+        <label for="lager"><input id="lager" type="checkbox" value="lager" name="checkbox"> Lager</label>
+        <label for="ipa"><input id="ipa" type="checkbox" value="Indian Pale Ale" name="checkbox"> Indian Pale Ale</label>
+        <label for="apa"><input id="apa" type="checkbox" value="American Pale Ale" name="checkbox"> American Pale Ale</label>
+        <label for="is"><input id="is" type="checkbox" value="Irish Stout" name="checkbox"> Irish Stout</label>
+      </section>
+
+      <section class="divider">
+        <label for="textarea">Please leave comments regarding your tasting experience:</label>
+        <textarea placeholder="I usually drink lagers, but the Irish Stout was really good " name="comments"></textarea>
+      </section>
+
+      <div class="flexbox">
+        <input id="submit" type="submit" name="submit" value="Form Submission">
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>
